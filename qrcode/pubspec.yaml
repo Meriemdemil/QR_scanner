@@ -9,10 +9,15 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_image_compress: ^2.4.0
+  image: ^4.5.4
   mobile_scanner: ^6.0.7
   openpgp: ^3.10.1
   qr_code_scanner: ^1.0.1
+  qr_flutter: ^4.1.0
   url_launcher: ^6.3.1
+
+
 
 dev_dependencies:
   flutter_test:
@@ -21,3 +26,8 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  fonts:
+    - family: Raleway
+  assets:
+    - assets/logo.png
+
