@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import '../widgets/header.dart';
-import '../widgets/footer.dart';
+import 'package:qrcode/screens/qr_screen.dart';
+
 void main() {
   debugPaintBaselinesEnabled = false;
   runApp(const MyApp());
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-        body: FooterWidget()
+        body: QrScreen(scannedUrl: 'https://www.google.fr/',)
       ),
 
     );

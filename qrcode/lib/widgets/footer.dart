@@ -26,7 +26,6 @@ class FooterWidget extends StatelessWidget {
                 ),
               ),
             ),
-
             ClipPath(
               clipper: WaveClipper1(),
               child: Container(
@@ -41,8 +40,6 @@ class FooterWidget extends StatelessWidget {
                 ),
               ),
             ),
-
-            // Footer content
             Center(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
