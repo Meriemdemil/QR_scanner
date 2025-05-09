@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
+
+import 'package:flutter/rendering.dart';
+import 'package:qrcode/screens/qr_screen.dart';
+
 import 'package:qrcode/url_check_page.dart';
+
 
 
 
@@ -19,7 +24,11 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const UrlCheckPage(),
+
+      home: Scaffold(
+        body: QrScreen(scannedUrl: 'https://www.google.fr/',)
+      ),
+
     );
   }
 }
