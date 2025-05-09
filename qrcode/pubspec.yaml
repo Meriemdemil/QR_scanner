@@ -16,6 +16,10 @@ dependencies:
   qr_code_scanner: ^1.0.1
   qr_flutter: ^4.1.0
   url_launcher: ^6.3.1
+  http: ^1.1.0  # For making HTTP requests
+  provider: ^6.1.5  # For state management
+  dio: ^5.4.0  # For advanced HTTP requests 
+  shared_preferences: ^2.1.1  # Optional: For storing settings
 
 
 
@@ -26,8 +30,9 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  fonts:
-    - family: Raleway
+  generate: true
+    
+      
   assets:
     - assets/logo.png
 
